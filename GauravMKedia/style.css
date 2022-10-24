@@ -1,0 +1,97 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #f1f1f1;
+  font-family: arial;
+  box-sizing: border-box;
+}
+.card-container {
+  width: 450px;
+  height: 380px;
+  background: #fff;
+  border-radius: 6px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 1px 10px 1px #000;
+  overflow: hidden;
+  display: inline-block;
+}
+.upper-container {
+    height: 87px;
+    background: #7f00ff;
+    display: flex;
+    justify-content: center;
+}
+.image-container {
+    background: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.image-container img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.lower-container {
+  height: auto;
+  background: #fff;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.lower-container h3,
+h4 {
+  box-sizing: border-box;
+  line-height: 0.6;
+  font-weight: lighter;
+}
+.lower-container h4 {
+  color: #7f00ff;
+  opacity: 0.6;
+  font-weight: bold;
+}
+.lower-container p {
+  font-size: 16px;
+  color: gray;
+  margin-bottom: 30px;
+}
+.lower-container .btn {
+  padding: 12px 20px;
+  background: #7f00ff;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease-in;
+}
+.lower-container .btn:hover {
+  background: transparent;
+  color: #7f00ff;
+  border: 2px solid #7f00ff;
+}
+
+.contact-info-item{
+  flex: 0 0  33%;
+  max-width: 33%;
+  text-align: center;
+  /* margin-bottom: 60px; */
+}
+
+.row{
+  display: flex;
+  flex-wrap:wrap;
+  position: relative;
+  justify-content: space-around;
+
+}
+
+.fa{
+  font-size: 25px;
+  /* color:var(--skin-color); */
+}
